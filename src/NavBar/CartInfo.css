@@ -1,0 +1,12 @@
+.deleteIcon{
+    border-radius: 0px;
+  border:  transparent;
+  padding: 0px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: none;
+}
