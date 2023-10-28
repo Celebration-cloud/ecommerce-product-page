@@ -1,0 +1,30 @@
+.details{
+    padding: 50px;
+    text-align: left;
+}
+.percent{
+    background-color: rgb(202, 190, 168);
+    color: orangered;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.slashAmount{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: small;
+}
+.addQuantity{
+    background-color: aliceblue;
+    color: orangered;
+    font-weight: 1000;
+}
+.count{
+    width: 12%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 1000;
+}

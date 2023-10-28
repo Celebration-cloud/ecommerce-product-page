@@ -1,0 +1,11 @@
+.details{
+    padding: 50px;
+    text-align: left;
+}
+.percent{
+    background-color: rgb(202, 190, 168);
+    color: orangered;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
