@@ -1,0 +1,27 @@
+import
+[
+  {
+    id: uuid(),
+    company: "SNEAKER COMPANY",
+    productName: "Fall Limited Edition Sneakers",
+    description: `These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they’ll withstand everything the
+        weather can offer.`,
+    price: 250,
+    imageUrls: [pic1, pic2, pic3, pic4],
+    image: pic1,
+    discount: 50
+  },
+  {
+    id: uuid(),
+    company: "SNEAKER COMPANY",
+    productName: "Fall Limited Edition Sneakers",
+    description: `These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they’ll withstand everything the
+        weather can offer.`,
+    price: 250,
+    imageUrls: [pic1, pic2, pic3, pic4],
+    image: pic1,
+    discount: 50
+  },
+];
