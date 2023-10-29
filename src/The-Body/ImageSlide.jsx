@@ -2,7 +2,7 @@ import pic1 from '../../images/image-product-1.jpg'
 import pic2 from '../../images/image-product-2.jpg'
 import pic3 from '../../images/image-product-3.jpg'
 import pic4 from '../../images/image-product-4.jpg'
-function ImageSlide() {
+function ImageSlide({item}) {
     
   return (
     <div className="col">
@@ -41,16 +41,16 @@ function ImageSlide() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={pic1} className="d-block w-100" alt="..." />
+            <img src={item.imageUrls[0]} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={pic2} className="d-block w-100" alt="..." />
+            <img src={item.imageUrls[1]} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={pic3} className="d-block w-100" alt="..." />
+            <img src={item.imageUrls[3]} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={pic4} className="d-block w-100" alt="..." />
+            <img src={item.imageUrls[4]} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button

@@ -6,7 +6,9 @@ function ShoppingContent({ item, handleDetail }) {
 
   const slash = (item.discount * item.price) / 100
   const handleCount = (e) => {
-    if(!Number(e.target.value)) return;
+    if (Number(e.target.value) === 0) return 0;
+    if (!Number(e.target.value)) return;
+    
     setImplement(Number(e.target.value));
   };
   
@@ -61,6 +63,7 @@ function ShoppingContent({ item, handleDetail }) {
             value={implement}
             onChange={handleCount}
             className="count"
+            style={{textAlign: "center"}}
             type="tel"
           />
           <button onClick={plus} className="addQuantity">
