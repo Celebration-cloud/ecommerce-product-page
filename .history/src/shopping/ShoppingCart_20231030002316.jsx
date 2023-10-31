@@ -7,6 +7,11 @@ import pic1_1 from "../../images/pair-trainers-1.jpg";
 import pic1_2 from "../../images/pair-trainers-2.jpg"
 import pic1_3 from "../../images/pair-trainers-3.jpg";
 import pic1_4 from "../../images/pair-trainers-4.jpg";
+// import pic1_5 from "../../images/pair-trainers (5).jpg";
+// import pic1_6 from "../../images/pair-trainers (6).jpg";
+// import pic1_7 from "../../images/pair-trainers (7).jpg";
+// import pic1_8 from "../../images/pair-trainers (8).jpg";
+// import pic1_9 from "../../images/pair-trainers.jpg";
 const shoppingCart = [
   {
     id: uuid(),
