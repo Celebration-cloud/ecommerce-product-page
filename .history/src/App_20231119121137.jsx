@@ -5,7 +5,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import Navbar from './NavBar/Navbar';
 import TheBody from './The-Body/TheBody';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const [detail, setDetail] = useState([]);

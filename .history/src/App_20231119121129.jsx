@@ -5,15 +5,22 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import Navbar from './NavBar/Navbar';
 import TheBody from './The-Body/TheBody';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
-  const [detail, setDetail] = useState([]);
+  const [detail, setDetail] = useState();
 
   
   function handleDetail(info){
     setDetail(prev => [...prev, info])
   }
+  useEffect(function(){
+    function storage(){
+      localStorage.setItem("shop", JSON.stringify(detail))
+      
+    }
+    storage()
+  }, [detail])
   const handleRemove = (id) => {
     setDetail(item => item.filter((item) => item.id !== id))
   }
